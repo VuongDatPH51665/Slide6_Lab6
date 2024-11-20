@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/startServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backgroundTint="@null"
+        android:background="@drawable/darius"
+        android:text="Start Service"/>
+
+    <Button
+        android:id="@+id/stopServiceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/darius"
+
+        app:backgroundTint="@null"
+        android:text="Stop Service"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
